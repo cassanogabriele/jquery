@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="utf-8"> 
+			<title>Le développement web</title>				
+			<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">			
+			<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">			
+			<link rel="stylesheet" type="text/css" href="css/style.css">	
+			<link rel="stylesheet" type="text/css" href="css/flexslider.css">
+			<link rel="stylesheet" type="text/css" href="css/lightbox.css">
+			<link href="https://fonts.googleapis.com/css?family=Abel|Russo+One&display=swap" rel="stylesheet"> 
+			<link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet"> 
+			<link href="css/animate.css" rel="stylesheet">
+			<script
+			  src="https://code.jquery.com/jquery-2.2.3.min.js"
+			  integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="
+			  crossorigin="anonymous"></script>
+			<script src="js/home.js"></script>
+			<script src="js/jquery.lettering.js"></script>
+			<script src="js/jquery.textillate.js"></script>
+			<script src="js/effects.js"></script>			
+		</head>	
+			
+		<body>
+			<header>
+				<div class="hat">
+					<a href="index.html"><h1><i class="fab fa-edge"></i><span id="logo"> &nbsp;LE WEB</span></h1></a>
+				</div>					
+					
+				<div class="clearfix"></div>
+			</header>	
+				
+			<div class="nav1">			
+				<nav class="navbar navbar-expand-lg navbar-light bg-light">			
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav mx-auto">
+							<li class="nav-item">
+								<a class="nav-link" href="index.html">Accueil</a>
+							</li>
+						
+							<li class="nav-item">
+								<a class="nav-link" href="apropos.html">A propos</a>
+							</li>	
+
+							<li class="nav-item">
+								<a class="nav-link" href="services.html">Services</a>
+							</li>
+
+							<li class="nav-item">
+								<a class="nav-link" href="technologies.html">Technologies</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>		
+			
+			<div class="banner"></div>	
+			
+			<div class="container" id="accueil">
+				<div class="container" id="slider">			
+					<div class="flexslider">
+						<ul class="slides">
+							<li class="flex-caption">
+								<p class="color-p-slider">Nunc ac blandit neque ?</p>
+								<br/>
+								<button type="button" class="more-bttn" data-toggle="modal" data-target="#createModal">
+								 Lire plus
+								</button>
+							</li>
+								
+							<li class="flex-caption">
+								<p class="color-p-slider">Nunc fermentum mattis.</p>
+								<br/>
+								<button type="button" class="more-bttn" data-toggle="modal" data-target="#customersModal">
+								 Lire plus
+								</button>
+							</li>
+									
+							<li class="flex-caption">
+								<p class="color-p-slider">Nunc fermentum mattis.</p>
+								<br/>
+								<button type="button" class="more-bttn" data-toggle="modal" data-target="#masteryModal">
+								 Lire plus
+								</button>
+							</li>
+									
+							<li class="flex-caption">
+								<p class="color-p-slider">Donec sed lorem augue ?</p>
+								<br/>
+								<button type="button" class="more-bttn" data-toggle="modal" data-target="#investmentModal">
+								 Lire plus
+								</button>
+							</li>
+						</ul>
+					</div>
+					
+					<!-- Modal 1 -->
+					<div class="modal fade" id="createModal" tabindex="-1" role="dialog" aria-labelledby="createModalLabel" aria-hidden="true">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="titles" id="exampleModalLabel" data-in-effect="rotateIn">Cras nec tempus turpis</h5>
+										
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+								</div>
+									  
+								<div class="modal-body">									
+									<p>Sed semper velit eu risus fringilla, eu rutrum arcu porta. Mauris vel malesuada urna.</p>
+								</div>
+									  
+								<div class="modal-footer">
+									<button type="button" class="more-bttn" data-dismiss="modal">Fermer</button>								
+								</div>
+							</div>
+						  </div>
+					</div>
+					
+					<!-- Modal 2 -->
+					<div class="modal fade" id="customersModal" tabindex="-1" role="dialog" aria-labelledby="customersModalLabel" aria-hidden="true">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="exampleModalLabel" data-in-effect="rotateIn">Fusce ut metus</h5>
+										
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								  
+								<div class="modal-body">									
+									<p>
+										<ul class="list-group">											
+											<li class="list-group-item">Aliquam feugiat</li>
+											<li class="list-group-item">Vivamus tempor</li>
+											<li class="list-group-item">Sapien enim</li>
+											<li class="list-group-item">Praesent bibendum</li>																	
+										</ul>
+									</p>
+								</div>
+								  
+								<div class="modal-footer">
+									<button type="button" class="more-bttn" data-dismiss="modal">Fermer</button>								
+								</div>
+							</div>
+					  </div>
+					</div>
+						
+					<!-- Modal 3 -->
+					<div class="modal fade" id="masteryModal" tabindex="-1" role="dialog" aria-labelledby="masteryModalLabel" aria-hidden="true">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="exampleModalLabel" data-in-effect="rotateIn">La maîtrise de l'activité de son entreprise</h5>
+								
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+							  
+								<div class="modal-body">									
+									<p>
+									Nunc ac blandit neque, semper maximus risus. Nunc metus enim, sagittis in placerat vitae, euismod nec mauris. Nulla tincidunt risus consequat, sagittis odio et, 
+									convallis felis. Praesent bibendum, purus vel rutrum pulvinar, tellus dolor vehicula elit, a facilisis nisl odio vehicula sapien. 
+									</p>
+								</div>
+								  
+								<div class="modal-footer">
+									<button type="button" class="more-bttn" data-dismiss="modal">Fermer</button>								
+								</div>
+							</div>
+						</div>
+					</div>
+						
+					<!-- Modal 4 -->
+					<div class="modal fade" id="investmentModal" tabindex="-1" role="dialog" aria-labelledby="investmentModalLabel" aria-hidden="true">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="investmentModalLabel" data-in-effect="rotateIn">Praesent consectetur neque</h5>
+									
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								  
+								<div class="modal-body">									
+									<p>
+										<ul class="list-group">
+											<li class="list-group-item">Nunc ac blandit</li>
+											<li class="list-group-item">Praesent bibendum</li>
+											<li class="list-group-item">Maecenas a magna</li>
+											<li class="list-group-item">Vivamus ex sapien</li>													
+										</ul>
+									</p>
+								</div>
+								  
+								<div class="modal-footer">
+									<button type="button" class="more-bttn" data-dismiss="modal">Fermer</button>								
+								</div>
+							</div>
+					  </div>
+					</div>
+				</div>					
+			</div>				
+								
+			<footer>
+				<div class="container"> 
+					<div class="row">
+						<div class="col-md-4 three_clo">
+							<h4>Gabriele Cassano</h4>
+							 <img src="images/gabriele.png" style="height:180px; margin: 0 auto;" class="rounded mx-auto d-block" alt="gabriele cassano">
+						</div>
+						
+						<div class="col-md-4 mid-row">
+							<h4 class="footer-text">Développeur web</h4>									
+						</div>
+					</div>
+				</div>				
+				
+				
+				<a href="http://invokingdemons.gabriel-cassano.be/" style="display:none;">invoking demons</a>				
+			</footer>					
+			
+			<a href="#"><img src="images/arrow.png"  id="topBtn" alt="arrow"/></a>					
+			
+			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>	
+			<script src="js/jquery.flexslider.js"></script>	
+			<script src="js/lightbox.min.js"></script>	
+			<script type="text/javascript">
+			$(function(){
+				SyntaxHighlighter.all();
+			});
+			
+			$(window).load(function() {
+			  $('.flexslider').flexslider({
+				animation: "slide",
+					start: function(slider){
+						$('body').removeClass('loading');
+					}
+			  });
+			});			
+			</script>
+			
+			<script>
+			// When the user scrolls down 20px from the top of the document, show the button
+			window.onscroll = function() {scrollFunction()};
+
+			function scrollFunction() {
+			  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				document.getElementById("topBtn").style.display = "block";
+			  } else {
+				document.getElementById("topBtn").style.display = "none";
+			  }
+			}
+
+			// When the user clicks on the button, scroll to the top of the document
+			function topFunction() {
+			  document.body.scrollTop = 0; // For Safari
+			  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+			} 
+			</script>
+		</body>	
+	</html>
